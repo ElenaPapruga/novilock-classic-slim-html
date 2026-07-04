@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Спецификация — Электронные замки Classic Slim | Novilock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>function toggleSidebar(){document.body.classList.toggle("sidebar-collapsed");try{localStorage.setItem("naviCollapsed",document.body.classList.contains("sidebar-collapsed")?"1":"0")}catch(e){}}try{if(localStorage.getItem("naviCollapsed")==="1")document.body.classList.add("sidebar-collapsed")}catch(e){}</script>
+<div class="toc-backdrop" onclick="toggleSidebar()" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="header-left">
+      <a href="index.html" class="logo"><span class="logo__mark">NOVI</span><span class="logo__mark logo__mark--accent">LOCK</span></a>
+      <span class="header-model">Электронные замки · Classic Slim</span>
+    </div>
+    <div class="header-tools">
+      <a class="htool--pdf" href="Manual_CLASSIC_SLIM.pdf" target="_blank" rel="noopener" title="Посмотреть инструкцию (PDF)">
+        <svg class="pdf-badge" width="30" height="16" viewBox="0 0 30 16" aria-hidden="true"><rect width="30" height="16" rx="3" fill="#e30613"/><text x="15" y="12" font-size="9" font-weight="700" fill="#fff" text-anchor="middle" font-family="Arial, sans-serif">PDF</text></svg><span class="htool-label">Посмотреть инструкцию</span>
+      </a>
+      <button class="htool--sidebar" type="button" onclick="toggleSidebar()" aria-label="Показать или скрыть меню">
+        <svg class="htool__ico" width="16" height="14" viewBox="0 0 16 14" aria-hidden="true"><rect x="0.5" y="0.5" width="15" height="13" rx="1.5" fill="none" stroke="currentColor"/><line x1="5.5" y1="0.5" x2="5.5" y2="13.5" stroke="currentColor"/></svg><span class="htool-label">SIDEBAR</span>
+      </button>
+      <nav class="header-nav" aria-label="Навигация по разделам">
+        <a class="hnav" href="zvukovye-podskazki.html"><span class="hnav-arrow">◄</span> <span class="hnav-label">ПРЕД.</span></a>
+        <span class="sep">|</span>
+        <a class="hnav" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><span class="hnav-arrow">▲</span> <span class="hnav-label">НАВЕРХ</span></a>
+        <span class="sep">|</span>
+        <a class="hnav" href="faq.html"><span class="hnav-label">СЛЕД.</span> <span class="hnav-arrow">►</span></a>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="layout">
+    <aside class="toc">
+  <p class="toc__title">Содержание</p>
+  <nav class="toc-tree">
+    <div class="toc-item--leaf"><a class="toc-page" href="index.html">Описание</a></div>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="ustanovka.html">Установка и подключение</a></summary>
+      <ul class="toc-sub">
+        <li><a href="ustanovka.html#sec-1">Общие рекомендации по установке</a></li>
+        <li><a href="ustanovka.html#sec-2">Установка</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="nomernoy-fond.html">Создание номерного фонда</a></summary>
+      <ul class="toc-sub">
+        <li><a href="nomernoy-fond.html#sec-1">Создание номерного фонда</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="programmirovanie.html">Программирование замков</a></summary>
+      <ul class="toc-sub">
+        <li><a href="programmirovanie.html#sec-1">Программирование замков</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="registraciya-gostey.html">Регистрация гостей</a></summary>
+      <ul class="toc-sub">
+        <li><a href="registraciya-gostey.html#sec-1">Регистрация гостей</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="specialnye-karty.html">Специальные карты</a></summary>
+      <ul class="toc-sub">
+        <li><a href="specialnye-karty.html#sec-1">Специальные карты</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="otchety.html">Отчёты</a></summary>
+      <ul class="toc-sub">
+        <li><a href="otchety.html#sec-1">Отчеты</a></li>
+      </ul>
+    </details>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="zvukovye-podskazki.html">Звуковые подсказки</a></summary>
+      <ul class="toc-sub">
+        <li><a href="zvukovye-podskazki.html#sec-1">Звуковые подсказки</a></li>
+      </ul>
+    </details>
+    <div class="toc-item--leaf"><a class="toc-page active" href="specs.html">Спецификация</a></div>
+    <div class="toc-item--leaf"><a class="toc-page" href="faq.html">F.A.Q. — Часто задаваемые вопросы</a></div>
+    <details class="toc-node">
+      <summary><a class="toc-page" href="info.html">Дополнительная информация и гарантия</a></summary>
+      <ul class="toc-sub">
+        <li><a href="info.html#sec-1">Условия гарантийного обслуживания</a></li>
+      </ul>
+    </details>
+  </nav>
+</aside>
+    <article class="article">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Руководство Classic Slim</a><span class="breadcrumbs__sep">/</span>
+        <span class="breadcrumbs__current">Спецификация</span>
+      </nav>
+      <h1 class="doc-title">Спецификация</h1>
+      <p class="doc-subtitle">Руководство пользователя · Электронные замки Novilock™ Classic Slim</p>
+      <div class="tbl-wrap"><table class="ptable">
+        <tr><th class="k"></th><td>Classic Slim</td></tr>
+        <tr><th class="k"></th><td>4218</td></tr>
+        <tr><th class="k"></th><td>Серебро</td></tr>
+        <tr><th class="k"></th><td>Нержавеющая сталь/Нержавеющая сталь</td></tr>
+        <tr><th class="k"></th><td>100000 циклов</td></tr>
+        <tr><th class="k"></th><td>Накладной</td></tr>
+        <tr class="cat"><th colspan="2">ФИЗИЧЕСКИЕ ХАРАКТЕРИСТИКИ</th></tr>
+        <tr><th class="k"></th><td>-35°С...+55°С</td></tr>
+        <tr><th class="k"></th><td>0~95%</td></tr>
+        <tr><th class="k"></th><td>41×310×23</td></tr>
+        <tr><th class="k"></th><td>DC 6 B (4×AA* тип)</td></tr>
+        <tr class="cat"><th colspan="2">РЕКОМЕНДУЕМЫЕ К ПРИМЕНЕНИЮ ХАРАКТЕРИСТИКИ ДВЕРИ</th></tr>
+        <tr><th class="k"></th><td>Алюминий/дерево/пластик</td></tr>
+        <tr><th class="k"></th><td>35~65 мм</td></tr>
+      </table></div>
+      <div class="pager"><a class="pager__prev" href="zvukovye-podskazki.html">← Звуковые подсказки</a><a class="pager__next" href="faq.html">F.A.Q. — Часто задаваемые вопросы →</a></div>
+    </article>
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo logo--footer"><span class="logo__mark">NOVI</span><span class="logo__mark logo__mark--accent">LOCK</span></span>
+    <p class="footer-note">© Novilock. Руководство пользователя · Электронные замки Classic Slim</p>
+  </div>
+</footer>
+</body>
+</html>
